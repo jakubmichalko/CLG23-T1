@@ -1,3 +1,3 @@
 $(function(){
-    $("#navigationPanel").load("/shared/navigation.html");
+    $("#navigationPanel").load("shared/navigation.html");
   });
