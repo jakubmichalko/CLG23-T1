@@ -1,37 +1,29 @@
-
-
 .mainContainer {
-    background-color: rgb(255, 252, 220);
+  background-color: rgb(255, 252, 220);
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.hlavicka{
-    grid-area: header;
-    font-family: 'Roboto Mono', monospace;
-}
-
-
-.levaStrana{
-    grid-area: leftpanel;
-    align-items: flex-start;
-   
+.hlavicka {
+  grid-area: header;
+  font-family: "Roboto Mono", monospace;
 }
 
-.pravaStrana{
-    grid-area: rightpanel;
-  
+.levaStrana {
+  grid-area: leftpanel;
+  align-items: flex-start;
 }
 
-.hlavniCast{
-    grid-area: mainpanel;
-  
-    font-family: 'IBM Plex Serif', serif;
-    
+.pravaStrana {
+  grid-area: rightpanel;
 }
 
-.paticka{
-    grid-area: footer;
-   
+.hlavniCast {
+  grid-area: mainpanel;
+
+  font-family: "IBM Plex Serif", serif;
+}
+
+.paticka {
+  grid-area: footer;
 }
