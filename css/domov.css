@@ -5,4 +5,33 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.hlavicka{
+    grid-area: header;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.levaStrana{
+    grid-area: leftpanel;
+    align-items: flex-start;
+   
+}
+
+.pravaStrana{
+    grid-area: rightpanel;
+  
+}
+
+.hlavniCast{
+    grid-area: mainpanel;
+  
+    font-family: 'IBM Plex Serif', serif;
+    
+}
+
+.paticka{
+    grid-area: footer;
+   
 }
