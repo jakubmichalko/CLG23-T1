@@ -9,7 +9,7 @@
     "footer footer footer";
   grid-template-rows: 80px auto 150px;
 }
-.hlavicka {
+.hlavicka{
   grid-area: header;
   background-color: aqua;
   font-family: "Roboto Mono", monospace;
