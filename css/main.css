@@ -11,25 +11,26 @@
 }
 .hlavicka {
   grid-area: header;
+  background-color: rgb(146, 197, 167);
 }
 
 .levaStrana {
   grid-area: leftpanel;
-  background-color: rgb(255, 181, 154);
+  background-color: rgb(238, 249, 242);
 }
 
 .pravaStrana {
   grid-area: rightpanel;
-  background-color: rgb(255, 181, 154);
+  background-color: rgb(238, 249, 242);
 }
 
 .hlavniCast {
   grid-area: mainpanel;
-  background-color: rgb(255, 181, 154);
+  background-color: rgb(238, 249, 242);
   font-family: "IBM Plex Serif", serif;
 }
 
 .paticka {
   grid-area: footer;
-  background-color: rgb(204, 120, 110);
+  background-color: rgb(146, 197, 167);
 }

@@ -1,17 +1,14 @@
-
-
 .mainContainer {
-    background-color: rgb(255, 252, 220);
+  background-color: rgb(255, 252, 220);
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
-.hlavicka{
-    grid-area: header;
-    font-family: 'Roboto Mono', monospace;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+.hlavicka {
+  grid-area: header;
+  font-family: "Roboto Mono", monospace;
+}
 
 .levaStrana{
     grid-area: leftpanel;
@@ -19,8 +16,6 @@
     flex-direction: column;
     justify-content: center;
 }
-
-
 
 .pravaStrana{
     grid-area: rightpanel;
@@ -35,27 +30,26 @@
     flex-direction: column;
     justify-content: center;
 
-    
 }
 
 .paticka{
     grid-area: footer;
     display:flex;
     justify-content: space-between;
-   
+
 }
 
-.centered-text {
-margin-left: auto;
-margin-right: auto;
-}
+        .centered-text {
+        margin-left: auto;
+        margin-right: auto;
+        }
 
-.socialMediaContainer{
-    padding-top: 50px ;
-    padding-right:100px ;
-}
+        .socialMediaContainer{
+            padding-top: 50px ;
+            padding-right:100px ;
+        }
 
-.jmenaPaticka {
-    padding-top: 25px ;
-    padding-left:75px ;
-}
+        .jmenaPaticka {
+            padding-top: 25px ;
+            padding-left:75px ;
+        }
