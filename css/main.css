@@ -13,7 +13,7 @@
   grid-area: header;
 }
 
-.levastrana {
+.levaStrana {
   grid-area: leftpanel;
   background-color: rgb(255, 181, 154);
 }

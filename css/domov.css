@@ -15,23 +15,47 @@
 
 .levaStrana{
     grid-area: leftpanel;
-    align-items: flex-start;
-   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+
 
 .pravaStrana{
     grid-area: rightpanel;
-  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hlavniCast{
     grid-area: mainpanel;
-  
-    font-family: 'IBM Plex Serif', serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
     
 }
 
 .paticka{
     grid-area: footer;
+    display:flex;
+    justify-content: space-between;
    
+}
+
+.centered-text {
+margin-left: auto;
+margin-right: auto;
+}
+
+.socialMediaContainer{
+    padding-top: 50px ;
+    padding-right:100px ;
+}
+
+.jmenaPaticka {
+    padding-top: 25px ;
+    padding-left:75px ;
 }
