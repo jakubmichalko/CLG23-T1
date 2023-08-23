@@ -1,5 +1,5 @@
 .mainContainer {
-  background-color: rgb(239,226,202);
+  background-color: rgb(239, 226, 202);
 
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -9,14 +9,8 @@
     "footer footer footer";
   grid-template-rows: 80px auto 150px;
 }
-.hlavicka{
+.hlavicka {
   grid-area: header;
-  background-color: rgb(204, 120, 110);
-  font-family: "Roboto Mono", monospace;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
 }
 
 .levaStrana {
@@ -26,16 +20,16 @@
 
 .pravaStrana {
   grid-area: rightpanel;
-  background-color: rgb(131, 19, 116  );
+  background-color: rgb(131, 19, 116);
 }
 
 .hlavniCast {
   grid-area: mainpanel;
-  background-color: rgb(229,174,154);
+  background-color: rgb(229, 174, 154);
   font-family: "IBM Plex Serif", serif;
 }
 
 .paticka {
   grid-area: footer;
-  background-color: rgb(219,176,171);
+  background-color: rgb(219, 176, 171);
 }
