@@ -4,40 +4,5 @@
     background-color: rgb(255, 252, 220);
 
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: 
-    "header header header"
-    "leftpanel mainpanel rightpanel"
-    "footer footer footer";
-    grid-template-rows: 80px auto 150px;
-
-    
-}
-.hlavicka{
-    grid-area: header;
-    background-color: aqua;
-    font-family: 'Roboto Mono', monospace;
-}
-
-
-.levaStrana{
-    grid-area: leftpanel;
-    background-color: rgb(0, 255, 136);
-}
-
-.pravaStrana{
-    grid-area: rightpanel;
-    background-color: rgb(131, 19, 116);
-}
-
-.hlavniCast{
-    grid-area: mainpanel;
-    background-color: rgb(169, 63, 10);
-    font-family: 'IBM Plex Serif', serif;
-    
-}
-
-.paticka{
-    grid-area: footer;
-    background-color: pink;
+    grid-template-columns: 1fr 1fr 1fr;
 }
