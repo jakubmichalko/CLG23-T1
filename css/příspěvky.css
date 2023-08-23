@@ -10,10 +10,10 @@
     "footer footer footer";
   grid-template-rows: 80px auto 150px;
 }
+
 .hlavicka {
   grid-area: header;
   background-color: rgb(146, 197, 167);
-
 }
 
 .levaStrana {
