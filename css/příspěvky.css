@@ -2,11 +2,11 @@
   background-color: rgb(239,226,202);
 
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-areas:
-    "header"
-    "mainpanel"
-    "footer";
+    "header header header"
+    "leftpanel mainpanel rightpanel"
+    "footer footer footer";
   grid-template-rows: 80px auto 150px;
 }
 .hlavicka{
@@ -19,7 +19,15 @@
   align-items: center;
 }
 
+.levaStrana {
+  grid-area: leftpanel;
+  background-color: rgb(0, 255, 136);
+}
 
+.pravaStrana {
+  grid-area: rightpanel;
+  background-color: rgb(131, 19, 116  );
+}
 
 .hlavniCast {
   grid-area: mainpanel;
