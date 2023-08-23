@@ -34,3 +34,9 @@
   grid-area: footer;
   background-color: rgb(146, 197, 167);
 }
+
+h1 {
+  font-size: 110px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
