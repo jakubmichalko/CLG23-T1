@@ -3,7 +3,7 @@ body {
 }
 #navigationPanel {
   height: 100%;
-  background-color: rgb(204, 120, 110);
+  background-color: rgb(146, 197, 167);
   font-family: "Roboto Mono", monospace;
   display: flex;
   flex-direction: row;
