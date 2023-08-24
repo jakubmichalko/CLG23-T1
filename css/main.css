@@ -78,3 +78,9 @@ h2 {
 .salek img {
   border-radius: 30px;
 }
+
+.podpis {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  padding-left: 500px;
+}
