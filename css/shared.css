@@ -27,8 +27,14 @@ h5 {
   font-size: 22px;
 }
 
+HEAD
 .hlavniCast>a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hlavniCast>a>img {
+  object-fit: cover;
+
 }
