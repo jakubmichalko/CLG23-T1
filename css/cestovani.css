@@ -29,6 +29,7 @@
       flex-direction: column;
       justify-content: center;
       
+      
   }
   
   .hlavniCast{
@@ -37,6 +38,7 @@
       flex-direction: row;
       justify-content: space-around;
     align-items: center;
+    
    
 
   }
@@ -49,22 +51,28 @@
   
   }
   
-          .centered-text {
-          margin-left: auto;
-          margin-right: auto;
-          }
-  
-          .socialMediaContainer{
-              
-              padding-top: 42px ;
-              padding-right:150px ;  
-          }
-  
-          .jmenaPaticka {
-              padding-top: 25px ;
-              padding-left:75px ;
-          }
+.centered-text {
+margin-left: auto;
+margin-right: auto;
+}
 
-          .h5 {
-            font-size: 300px;
-          }
+.socialMediaContainer{
+    
+    padding-top: 42px ;
+    padding-right:150px ;  
+}
+
+.jmenaPaticka {
+    padding-top: 25px ;
+    padding-left:75px ;
+}
+
+.h5 {
+  font-size: 300px;
+}
+
+.hlavniCast>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
