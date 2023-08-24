@@ -26,3 +26,9 @@ a:hover {
 h5 {
   font-size: 22px;
 }
+
+.hlavniCast>a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

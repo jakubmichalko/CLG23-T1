@@ -70,3 +70,11 @@ h2 {
   text-align: center;
   font-family: "Dancing Script", cursive;
 }
+
+.levaStrana {
+  padding: 20px;
+}
+
+.salek img {
+  border-radius: 30px;
+}
