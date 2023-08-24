@@ -26,3 +26,7 @@ a:hover {
 h5 {
   font-size: 22px;
 }
+
+.hlavniCast>a>img {
+  object-fit: cover;
+}
