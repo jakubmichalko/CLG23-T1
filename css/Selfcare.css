@@ -3,6 +3,10 @@
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  "mainpanel mainpanel mainpanel"
+  "footer footer footer";
 }
 
 .hlavicka {
@@ -18,7 +22,7 @@
 }
 
 .pravaStrana{
-    grid-area: rightpanel;
+    grid-area: mainpanel;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -28,8 +32,9 @@
 .hlavniCast{
     grid-area: mainpanel;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
