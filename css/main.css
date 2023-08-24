@@ -8,6 +8,7 @@
     "leftpanel mainpanel rightpanel"
     "footer footer footer";
   grid-template-rows: 80px auto 150px;
+  min-height: 100vh;
 }
 .hlavicka {
   grid-area: header;
