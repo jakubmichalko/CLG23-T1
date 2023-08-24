@@ -63,3 +63,7 @@ margin-right: auto;
     padding-top: 25px ;
     padding-left:75px ;
 }
+
+.hlavniCast img {
+    border-radius: 30px;
+}
