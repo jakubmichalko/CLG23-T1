@@ -7,6 +7,7 @@
     "header header header"
     "mainpanel mainpanel mainpanel"
     "footer footer footer";
+    
 
   }
   
@@ -16,7 +17,7 @@
   }
   
   .levaStrana{
-      grid-area: leftpanel;
+      grid-area: mainpanel;
       display:flex;
       flex-direction: column;
       justify-content: center;
@@ -36,6 +37,7 @@
       flex-direction: row;
       justify-content: space-around;
     align-items: center;
+   
 
   }
   
@@ -55,10 +57,14 @@
           .socialMediaContainer{
               
               padding-top: 42px ;
-              padding-left:600px ;  
+              padding-right:150px ;  
           }
   
           .jmenaPaticka {
               padding-top: 25px ;
               padding-left:75px ;
+          }
+
+          .h5 {
+            font-size: 300px;
           }
