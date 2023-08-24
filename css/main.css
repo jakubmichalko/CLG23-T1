@@ -32,25 +32,29 @@
 
 .paticka {
   grid-area: footer;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   font-size: 25px;
   background-color: rgb(146, 197, 167);
 }
-      .socialMediaContainer{
-                          
-        padding-top: 42px ;
-        padding-left:600px ;
-      }
+.socialMediaContainer {
+  padding-top: 42px;
+  padding-left: 600px;
+}
 
-      .jmenaPaticka {
-        padding-top: 25px;
-        padding-left:75px ;
-      }
+.jmenaPaticka {
+  padding-top: 25px;
+  padding-left: 75px;
+}
 
 h1 {
   font-size: 110px;
   text-align: center;
   font-family: "Dancing Script", cursive;
 }
-       
+
+h2 {
+  font-size: 70px;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
