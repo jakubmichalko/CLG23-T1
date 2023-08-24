@@ -2,6 +2,16 @@ body {
   padding: 0;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(221, 234, 202);
+}
+
 #navigationPanel {
   height: 100%;
   background-color: rgb(146, 197, 167);
